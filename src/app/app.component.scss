@@ -1,0 +1,25 @@
+mat-sidenav {
+    background-color: #46287a;
+    .mat-list-item {
+        color: white;
+    }
+}
+mat-sidenav mat-icon {
+    color: white;
+    margin: 10px;
+}
+.page-content {
+    padding: 20px;
+}
+
+.point-left {
+    animation-name: pointing-left;
+    animation-duration: 1s;
+    animation-iteration-count: 4;
+    animation-direction: alternate;
+}
+
+@keyframes pointing-left {
+    from {margin-left: 0px;}
+    to {margin-left: 30px;}
+}
